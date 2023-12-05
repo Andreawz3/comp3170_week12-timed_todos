@@ -1,0 +1,113 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #151515;
+}
+.title {
+  background-color: #1976d2;
+  padding: 0.2em 10em;
+  margin: 0;
+  color: white;
+  font-weight: 100;
+  text-align: left;
+  font-size: 3em;
+}
+.playlist {
+  margin: 0;
+  padding: 0;
+}
+
+/* Song UI styles */
+.todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  box-shadow: 0 1px 2px #151515;
+}
+
+.todo-details {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.todo-details p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.todo_item {
+  margin-left: 1rem;
+}
+
+.todo-details input {
+  margin-left: 1rem;
+}
+
+/* Form styles */
+.edit form {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.edit form > label > input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit form > button {
+  width: 4rem;
+  font-size: 1rem;
+  padding: 7px 12px;
+  color: white;
+  align-self: center;
+  border: none;
+  border-radius: 5px;
+  background-color: forestgreen;
+}
+
+.add-btn {
+  padding: 10px;
+  font-size: 0.8rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #2e7d32;
+}
+
+.delete_button {
+  width: 1.3rem;
+}
+
+.itemBtn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 1rem;
+}
+
+.itemBtn button {
+  padding: 7px 12px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.todo_details p > input:hover,
+.delete_button:hover,
+.edit form > button:hover,
+.itemBtn button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/* End of form styles */
